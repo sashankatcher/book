@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>A Town You Can't Find on the Map</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>A Town You Can't Find on the Map</h1>
+
+      <div class="viewer-container">
+        <button id="prev-btn" class="viewer-btn prev-btn" aria-label="Previous photo">‹</button>
+        <div class="viewer-image-wrapper">
+          <img id="viewer-img" src="images/1.jpg" alt="Photo 1" />
+          <div class="photo-counter"><span id="current-photo">1</span> / 15</div>
+        </div>
+        <button id="next-btn" class="viewer-btn next-btn" aria-label="Next photo">›</button>
+      </div>
+
+      <div class="gallery" id="gallery" style="display:none">
+        <figure>
+          <img loading="lazy" src="images/1.jpg" data-full="images/1.jpg" alt="Photo 1" />
+          <figcaption>Photo 1</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/2.jpg" data-full="images/2.jpg" alt="Photo 2" />
+          <figcaption>Photo 2</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/3.jpg" data-full="images/3.jpg" alt="Photo 3" />
+          <figcaption>Photo 3</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/4.jpg" data-full="images/4.jpg" alt="Photo 4" />
+          <figcaption>Photo 4</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/5.jpg" data-full="images/5.jpg" alt="Photo 5" />
+          <figcaption>Photo 5</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/6.jpg" data-full="images/6.jpg" alt="Photo 6" />
+          <figcaption>Photo 6</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/7.jpg" data-full="images/7.jpg" alt="Photo 7" />
+          <figcaption>Photo 7</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/8.jpg" data-full="images/8.jpg" alt="Photo 8" />
+          <figcaption>Photo 8</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/9.jpg" data-full="images/9.jpg" alt="Photo 9" />
+          <figcaption>Photo 9</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/10.jpg" data-full="images/10.jpg" alt="Photo 10" />
+          <figcaption>Photo 10</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/11.jpg" data-full="images/11.jpg" alt="Photo 11" />
+          <figcaption>Photo 11</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/12.jpg" data-full="images/12.jpg" alt="Photo 12" />
+          <figcaption>Photo 12</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/13.jpg" data-full="images/13.jpg" alt="Photo 13" />
+          <figcaption>Photo 13</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/14.jpg" data-full="images/14.jpg" alt="Photo 14" />
+          <figcaption>Photo 14</figcaption>
+        </figure>
+        <figure>
+          <img loading="lazy" src="images/15.jpg" data-full="images/15.jpg" alt="Photo 15" />
+          <figcaption>Photo 15</figcaption>
+        </figure>
+      </div>
+
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="close" id="lb-close" aria-label="Close">×</button>
+        <button class="prev" id="lb-prev" aria-label="Previous">‹</button>
+        <img id="lb-img" src="" alt="" />
+        <button class="next" id="lb-next" aria-label="Next">›</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
