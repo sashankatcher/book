@@ -4,7 +4,7 @@
   const prevBtn = document.getElementById('prev-btn');
   const nextBtn = document.getElementById('next-btn');
 
-  const totalPhotos = 15;
+  const totalPhotos = 16;
   let currentPhoto = 1;
 
   function updatePhoto(photoNum) {
