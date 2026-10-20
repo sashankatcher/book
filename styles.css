@@ -24,7 +24,7 @@ h1{margin:0 0 0.5rem;font-family:'Special Elite',cursive;font-size:2.5rem;text-a
 .viewer-image-wrapper img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 8px 30px rgba(2,6,23,0.5)}
 .photo-counter{position:static;background:transparent;color:var(--text);padding:12px 0;border-radius:0;font-size:1rem;font-weight:600;text-align:center;margin-top:12px}
 .viewer-btn{background:var(--accent);color:#ddd6d6;border:0;font-size:2.5rem;padding:12px 18px;cursor:pointer;border-radius:6px;transition:all .18s ease}
-.viewer-btn:hover{background:hsl(0, 4%, 48%);transform:scale(1.05)}
+.viewer-btn:hover{background:#7f7676;transform:scale(1.05)}
 .viewer-btn:active{transform:scale(0.98)}
 
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;position:relative}
@@ -42,7 +42,10 @@ figcaption{font-size:0.85rem;color:#9fb0c4;margin-top:6px}
 .lightbox .prev{left:18px;top:50%;transform:translateY(-50%);font-size:3rem}
 .lightbox .next{right:18px;top:50%;transform:translateY(-50%);font-size:3rem}
 
+.draft-note{margin:2rem auto 0;max-width:1600px;padding:0.8rem 1rem;border-top:1px solid rgba(255,255,255,0.12);color:#c0b9b9;font-size:1rem;line-height:1.7;text-align:center;letter-spacing:0.01em}
+
 @media (max-width:520px){
+  .draft-note{margin-top:1.5rem;padding:0.75rem 0.5rem;font-size:0.8rem;line-height:1.6}
   figure img{height:120px}
   .lightbox .prev,.lightbox .next{display:none}
 }
